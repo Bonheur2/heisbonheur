@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My second portifolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <section class="hero">
+        <div class="main_width">
+            <header>
+                <div class="logo"> 
+                    <i class="fa-solid fa-b"></i>
+                </div>
+                <nav>
+                    <div class="hamb">
+                       <span></span>
+                       <span></span>
+                       <span></span>
+                    </div> 
+                    
+                    <ul class="nav-list">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Work</a></li>
+                        <li class="btn"><a href="#">Contact Me</a></li>
+                    </ul>
+                    
+                </nav>
+                <img src="moon.png" id="icons">
+            </header>
+
+            <div class="container">
+                <div class="hero-text">
+                    <h3>Hi, There!</h3>
+                    <h1>I Am<span class="input"></span></h1>
+                    <p>Im rwabshgj qwgud guubjxqug uywsgugbsjufgs ugsibsyuusg ugsibsyfujs hgusgbhtfys hgujuv</p>
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <button type="button">More About Me</button>
+                </div>
+
+                <div class="bottom">
+                    <p> &copy  2023 Bonheur - All Rights Reserved</p>                     
+                </div>
+                
+            </div>
+        </div>
+
+    </section>
+
+
+    <script type="text/javascript" src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".input", {
+            strings:[" Bonheur.","  Web Developer."," UX Designer."," full stack designer."," software engineer."],
+            typeSpeed: 70,
+            backSpeed: 60,
+            loop:true
+        });
+    </script>  
+    <script>
+
+    var ibisazi = document.getElementById("ibisazi");
+
+    icons.onclick function () {
+        document.body.classList.toggle("dark-theme");
+        if(document.body.classList.contains("dark-theme")){
+            icons.src = "sun.png";
+        }
+        else{
+           icons.src = "moon.png";
+        }
+    };
+
+    </script>
+    
+</body>
+</html>
